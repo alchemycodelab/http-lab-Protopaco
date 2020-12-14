@@ -22,7 +22,7 @@ describe('app routes', () => {
         expect(response.status).toEqual(200);
     })
 
-    it('tests /red GET route, expects "<hi>red</h1>"', async () => {
+    it('tests /red GET route, expects "<h1>red</h1>"', async () => {
         const response = await request(app)
             .get('/red')
 
